@@ -1,20 +1,22 @@
 # ABILSON ELIAS
 
-### Backend Engineer · IoT Infrastructure · Cloud-Native Systems
+### Backend Engineer · IoT Infrastructure · Cloud-Native Systems · Systems Architecture
 
-Designing and building software systems from architecture to deployment.
+Building backend and infrastructure systems from architecture to deployment, with a focus on distributed systems, IoT, automation, observability, and secure infrastructure.
 
 ---
 
 ## About
 
-I'm a software engineer focused on backend systems, IoT infrastructure, cloud-native architectures, and distributed systems.
+I'm a software engineer focused on building systems that have to do more than simply run.
 
-I enjoy working across the entire engineering lifecycle:
+My work spans the full engineering lifecycle:
 
-**Architecture → Development → Testing → Infrastructure → Deployment**
+**Architecture → Development → Testing → QA → Infrastructure → Deployment → Observability**
 
-My approach is systems-oriented: understand how components interact, identify failure modes, and build software that is observable, maintainable, and ready to evolve.
+I work primarily on backend and infrastructure problems, with particular interest in distributed systems, IoT platforms, cloud-native architectures, data pipelines, automation, and security.
+
+I enjoy understanding the system as a whole: how services communicate, where data flows, how failures propagate, how infrastructure behaves under load, and how the pieces can be deployed and operated reliably.
 
 ---
 
@@ -22,12 +24,13 @@ My approach is systems-oriented: understand how components interact, identify fa
 
 - Backend and distributed systems
 - IoT platforms and device infrastructure
-- MQTT-based communication systems
-- Cloud-native applications
-- Automation platforms
-- Data and telemetry pipelines
-- Infrastructure and DevOps tooling
-- Security-oriented systems
+- MQTT-based communication and telemetry pipelines
+- Cloud-native applications and infrastructure
+- Multi-tenant SaaS architectures
+- Data ingestion and event-driven systems
+- Automation and AI-assisted platforms
+- Infrastructure, DevOps, and CI/CD systems
+- Security-oriented backend and network infrastructure
 
 ---
 
@@ -35,45 +38,99 @@ My approach is systems-oriented: understand how components interact, identify fa
 
 ### Languages
 
-**Go · Elixir · Python · Java · C++ · SQL**
+**Go · Python · Java · C++ · SQL**
 
-### Backend & Data
+**Elixir** · currently expanding my functional programming experience
 
-**PostgreSQL · TimescaleDB · MySQL · REST APIs**
+### Backend & APIs
 
-### Infrastructure
+**REST APIs · GraphQL · Microservices · API Gateways · Authentication / Authorization**
 
-**Docker · AWS · GitHub Actions · Linux**
+### Data
 
-### IoT
+**PostgreSQL · MySQL · TimescaleDB · ClickHouse**
 
-**MQTT · Device Management · Telemetry · Edge Systems**
+Experience with relational data modeling, time-series workloads, telemetry, data pipelines, and high-volume event data.
+
+### Infrastructure & Cloud
+
+**Docker · AWS · Linux · Infrastructure as Code · Git · GitHub Actions · CI/CD**
+
+### IoT & Distributed Systems
+
+**MQTT · Device Management · Telemetry · Event-Driven Architecture · Data Ingestion · Edge Systems**
 
 ### Observability
 
 **Grafana · Metrics · Logging · Monitoring**
 
-### Tools
+### Additional Engineering
 
-**Git · VS Code**
+**Service Meshes · VPN Systems · Network Topologies · Multi-Tenant Isolation · Rate Limiting · Idempotency · High Availability**
+
+### Client & Application Development
+
+**React Native · Flutter**
 
 ---
 
 ## Featured Projects
 
-> Selected projects will be highlighted here as their repositories reach portfolio-ready quality.
+### 🛰️ Nova Pulse
 
-The goal is simple: showcase systems with clear architecture, documented engineering decisions, testing, observability, and reproducible deployment.
+A scalable IoT platform designed around a separation between **Control Plane** and **Data Plane**.
+
+The architecture includes:
+
+**Control Plane**
+
+`Frontend → REST API → Authentication / OIDC / JWKS → PostgreSQL`
+
+with tenant management, memberships, authorization, snapshots, row-level security, rate limiting, and structured API errors.
+
+**Data Plane**
+
+`Device Simulator → MQTT → Ingestion → Validation / Normalization → PostgreSQL Inbox / Outbox → Event Router → ClickHouse`
+
+The system is designed around multi-tenancy, idempotent event processing, telemetry ingestion, and scalable activity/data workloads.
+
+**Core technologies:** Go · MQTT · Mosquitto · Docker · PostgreSQL · ClickHouse · REST · OIDC / JWKS
+
+---
+
+### 🏥 Healthcare Management Platform
+
+A modular healthcare management system focused on patient records, clinical workflows, healthcare operations, authentication, and scalable service architecture.
+
+The project is being approached as a systems-design problem first: domain modeling, service boundaries, data architecture, security, and operational reliability before expanding functionality.
+
+---
+
+### 🤖 AI & Automation Infrastructure
+
+Exploring enterprise automation systems that combine backend services, intelligent workflows, AI-assisted customer interaction, and infrastructure automation.
+
+The objective is to build systems where AI is integrated into a reliable software architecture rather than treated as an isolated feature.
 
 ---
 
 ## Currently Building
 
-- Scalable IoT infrastructure
-- Distributed backend systems
-- Cloud-native architectures
-- Automation platforms
-- Security-oriented infrastructure
+### IoT Infrastructure
+
+Developing scalable device infrastructure around MQTT, telemetry ingestion, event routing, containerized services, and observability.
+
+### Distributed Backend Systems
+
+Designing services with explicit attention to authentication, multi-tenancy, idempotency, data consistency, failure modes, and horizontal scalability.
+
+### Cloud-Native Infrastructure
+
+Working with containers, CI/CD, infrastructure automation, Linux, cloud services, and production-oriented deployment patterns.
+
+### Cybersecurity
+
+Expanding deeper into defensive security, secure infrastructure, authentication, networking, and security-oriented system design.
 
 ---
 
@@ -83,14 +140,17 @@ The goal is simple: showcase systems with clear architecture, documented enginee
 
 I care about more than making software work.
 
-I care about architecture, failure modes, observability, testing, deployment, and long-term maintainability.
+I care about architecture, failure modes, testing, QA, observability, deployment, security, and long-term maintainability.
 
-**Good software is not just code that runs. It is a system that can be understood, operated, and evolved.**
+**Good software is not just code that runs. It is a system that can be understood, operated, tested, and evolved.**
 
 ---
 
 ## Connect
 
-Interested in backend engineering, IoT, cloud infrastructure, systems architecture, or security?
+Interested in backend engineering, IoT, cloud infrastructure, distributed systems, systems architecture, or cybersecurity?
 
 **GitHub:** [@Ze1Ro0](https://github.com/Ze1Ro0)
+
+**LinkedIn:** [Abilson Elias](https://www.linkedin.com/)
+
